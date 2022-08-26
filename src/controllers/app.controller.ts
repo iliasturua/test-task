@@ -1,6 +1,6 @@
 import { Controller, Post, Request, Req, Param } from '@nestjs/common';
-import { UploadService } from './upload.service';
-import { ImageService } from './image.service';
+import { UploadService } from '../services/upload.service';
+import { ImageService } from '../services/image.service';
 import { FileNameParam, ImageNames } from 'types';
 
 @Controller()

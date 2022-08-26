@@ -1,9 +1,9 @@
 import { MiddlewareConsumer, Module, NestModule } from '@nestjs/common';
-import { AppController } from './app.controller';
-import { UploadService } from './upload.service';
+import { AppController } from './controllers/app.controller';
+import { UploadService } from './services/upload.service';
 import { ConfigModule } from '@nestjs/config';
-import { RawBodyMiddleware } from './raw-body.middleware';
-import { ImageService } from './image.service';
+import { RawBodyMiddleware } from './middlewares/raw-body.middleware';
+import { ImageService } from './services/image.service';
 
 @Module({
   imports: [ConfigModule.forRoot()],
