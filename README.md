@@ -45,6 +45,15 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
+## Postman example
+
+```bash
+# Send the request on
+$ http://localhost:3000/
+
+# Pass the name of the image as a parameter and set the binary request body
+```
+
 ## Test
 
 ```bash
